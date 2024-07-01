@@ -2,7 +2,7 @@
 html{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0rem 2rem;
-  background-color: #e66f00;
+  background-color: #910808;
 }
 
 /* Banner image*/
@@ -61,7 +61,10 @@ main{
 /* H1 uses a google font. Check out https://www.w3schools.com/howto/howto_google_fonts.asp to change - also see line 9 in your html page*/
 h1 {
   color: black;
-  font-family: 'micro 5';
+  body {
+    font-family: 'YourFontName', Micro ;
+  }
+
   font-size: 60px;
   text-align: center;
   margin-bottom: 1rem;
